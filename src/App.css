@@ -1,0 +1,70 @@
+* {
+	margin: 0;
+}
+
+.app {
+	background-color: #fafafa;
+}
+
+.app__modal {
+	outline: none;
+	position: absolute;
+	width: 230px;
+	background-color: #fafafa;
+	border: 2px solid lightgray;
+	box-shadow: rgba(0, 0, 0, 0.8);
+	padding: 20px;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	border-radius: 2px;
+}
+
+.app__modalLogo {
+	width: 100px;
+	object-fit: contain;
+	align-self: center;
+	margin-bottom: 15px;
+}
+
+.app__form {
+	display: flex;
+	flex-direction: column;
+
+	/* align-items: center; */
+}
+.app__form input {
+	margin: 10px;
+	/* padding: 0; */
+}
+
+.app__form > button {
+	background-color: #0095f8;
+	color: white;
+	text-transform: inherit;
+	margin-top: 30px;
+}
+
+.createAccount {
+	background: linear-gradient(
+		45deg,
+		#405de6,
+		#5851db,
+		#833ab4,
+		#c13584,
+		#e1306c,
+		#fd1d1d
+	);
+	color: white;
+	text-transform: inherit;
+	margin-top: 30px;
+}
+
+.app__posts {
+	display: flex;
+	justify-content: center;
+	padding: 20px;
+}

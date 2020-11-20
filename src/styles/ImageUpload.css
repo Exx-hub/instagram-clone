@@ -1,0 +1,31 @@
+.imageUpload {
+	display: flex;
+	flex-direction: column;
+	width: 60%;
+	margin: 10px auto;
+}
+
+.imageUpload > progress {
+	width: 100%;
+	margin-bottom: 10px;
+}
+.imageUpload > button {
+	text-transform: inherit;
+	background: linear-gradient(
+		45deg,
+		#405de6,
+		#5851db,
+		#833ab4,
+		#c13584,
+		#e1306c,
+		#fd1d1d
+	);
+	color: white;
+	margin-top: 10px;
+}
+.imageUpload__caption {
+	padding: 5px;
+	border: none;
+	border-bottom: 1px solid lightgray;
+	margin-bottom: 20px;
+}

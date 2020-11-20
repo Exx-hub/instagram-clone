@@ -1,0 +1,30 @@
+.header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border-bottom: 1px solid lightgray;
+	padding: 20px;
+	position: sticky;
+	top: 0;
+	background-color: #ffffff;
+	z-index: 1;
+}
+
+.header > img {
+	object-fit: contain;
+}
+
+.header__right {
+	display: flex;
+	align-items: center;
+}
+.header__right > h4 {
+	cursor: pointer;
+	font-size: 13px;
+	font-weight: 400;
+}
+.header__right > .MuiAvatar-root {
+	width: 25px;
+	height: 25px;
+	margin-left: 10px;
+}

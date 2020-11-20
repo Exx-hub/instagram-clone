@@ -1,0 +1,18 @@
+.footer {
+	border-top: 1px solid lightgray;
+	background-color: #ffffff;
+	text-align: center;
+	padding: 10px 0;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+}
+
+.footer__icon {
+	cursor: pointer;
+}
+
+.footer > h3 {
+	font-weight: 400;
+	font-size: 14px;
+}
